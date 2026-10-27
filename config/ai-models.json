@@ -1,0 +1,5 @@
+{
+  "provider": "anthropic",
+  "default_model": "claude-sonnet-4-5",
+  "backup_model": "gpt-4o-2024-08-06"
+}

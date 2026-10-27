@@ -1,0 +1,16 @@
+{
+  "name": "agentmesh-test",
+  "version": "1.0.0",
+  "description": "Agent test repo for DriftFix verification",
+  "main": "src/anthropic-client.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "openai": "^4.70.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
