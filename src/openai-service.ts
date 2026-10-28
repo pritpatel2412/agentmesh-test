@@ -14,7 +14,7 @@ export async function generateCompletion(prompt: string) {
 
   // 2. "gpt-3.5-turbo" is legacy shutdown (replaces with gpt-5.6-terra)
   const legacyResponse = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo",
+    model: "gpt-5.6-terra",
     messages: [{ role: "user", content: "Summarize: " + prompt }],
   });
 
