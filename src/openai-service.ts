@@ -8,7 +8,7 @@ export async function generateCompletion(prompt: string) {
   // Deprecations:
   // 1. "gpt-4o-2024-08-06" shuts down Jan 2027 (replaces with gpt-6-luna)
   const gpt4Response = await openai.chat.completions.create({
-    model: "gpt-4o-2024-08-06",
+    model: "gpt-6-luna",
     messages: [{ role: "user", content: prompt }],
   });
 
